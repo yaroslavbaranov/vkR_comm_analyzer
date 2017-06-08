@@ -2,8 +2,9 @@ library(vkR)
 library(ggplot2)
 library(tidyr)
 library(dplyr)
+library(data.table)
 vkOAuth(6062514, 'friends,groups')
-setAccessToken(access_token = 'b0d85f09a2cb7168eba3d2868a88a341592383ccbb58995837841a33d5df010cb6bc17e8af0a06fffce8f')
+setAccessToken(access_token = 'eabb9943eabb9943eabb9943aeeae718f1eeabbeabb9943b38e59cedd5427f8d10fb7bc')
 
 
 domain <- 'compbiol'
