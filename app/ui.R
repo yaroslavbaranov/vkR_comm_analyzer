@@ -16,8 +16,8 @@ shinyUI(fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      helpText("Function with group_id"),
-      
+      helpText("The Owls are not what they seems"),
+
       textInput("text1", label = h5("Enter domain, for example: compbiol"),
                 value = ""),
       textInput("text2", label = h5("Enter owner_id"),
@@ -25,6 +25,9 @@ shinyUI(fluidPage(
     ),
     
     mainPanel(
+      
+      helpText("General Activity"),
+      plotOutput("CommPlot"),
       
       helpText("Active Users: "),
       tableOutput("Active_Users"),
