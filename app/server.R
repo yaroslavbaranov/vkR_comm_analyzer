@@ -14,7 +14,6 @@ library(ggplot2)
 library(tidyr)
 library(dplyr)
 library(data.table)
-vkOAuth(6062514, 'friends,groups',"+79110890263","pharminnotechspcpa")
 # Define server logic required to draw a histogram
 shinyServer(
   function(input, output) {
